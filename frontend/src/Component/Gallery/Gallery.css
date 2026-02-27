@@ -1,0 +1,126 @@
+.gallery-container {
+    width: 100%;
+    height: auto;
+}
+
+
+.gallery-topic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 6%;
+
+}
+
+
+.gallery-topic h2 {
+    font-size: 2.9vw;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+}
+
+
+
+.gallery-holder {
+    width: 85%;
+    height: auto;
+    margin-inline: auto;
+    margin-bottom: 10%;
+    margin-left: 9%;
+}
+
+.gallery-first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.gallery-second {
+    width: 100%;
+    height: auto;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.gallery-third {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.image-gallery1 {
+    width: 40vw;
+    height: 39vw;
+    object-fit: cover;
+    transition: 0.6s ease-in-out;
+
+}
+
+
+
+
+.image-gallery2 {
+    width: 40vw;
+    height: 80vw;
+    object-fit: cover;
+    transition: 0.6s ease-in-out;
+
+}
+
+
+
+
+.image-gallery3 {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+    margin-top: -47.7%;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+
+.image-gallery4 {
+    width: 40vw;
+    height: 20vw;
+    object-fit: cover;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+
+.image-gallery5 {
+    width: 40vw;
+    height: 20vw;
+    object-fit: cover;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+
+.image-gallery6 {
+    width: 40vw;
+    height: 20vw;
+    object-fit: cover;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+

@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.blog-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.blog-header-holder {
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    background: url('../../assets/aboutunder1.jpg');
+}
+
+.blog-header-overlay {
+    width: 100%;
+    height: 30vw;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+.blog-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.blog-header-content h1 {
+    font-size: 4vw;
+    color: white;
+}
+
+.blog-header-content h2 {
+    font-size: 2.4vw;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Dancing Script", cursive;
+}
+
+
+.blog-navigate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(230, 158, 5);
+    box-shadow: 4px 2px 7px rgb(112, 111, 111);
+    border-radius: 3px;
+}
+
+.blog-navigate span {
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.blog-navigate span:hover {
+    color: rgb(63, 63, 62);
+}
+
+.blog-body1-container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    margin-top: 10%;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+
+.blog-body1-left {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-body1-left img {
+    width: 100%;
+    height: 35vw;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+.blog-body1-left h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.blog-body1-left p {
+    color: rgba(0, 0, 0, 0.884);
+    margin-top: 3%;
+    font-size: 0.9vw;
+    width: 37vw;
+}
+
+.blog-body1-left button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 15vw;
+    height: 4vw;
+    font-size: 1.2vw;
+    margin-top: 2%;
+    padding-left: 17px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.blog-body1-left button:hover {
+    background-color: rgb(238, 156, 5);
+}
+
+
+.blog-body1-right {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 15px;
+}
+
+.blog-body1-main {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 15px;
+}
+
+.blog-body1-right h3 {
+    font-size: 1.7vw;
+}
+
+.latest-post-line {
+    height: 2px;
+    width: 30vw;
+    background-color: rgba(80, 78, 78, 0.856);
+    border: none;
+}
+
+.blog-body1-right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog-body1-right-content img {
+    width: 8vw;
+    height: 8vw;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.blog-body1-right-content-txt {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog-body1-right-content-txt span {
+    width: 15vw;
+    font-size: 0.8vw;
+    color: rgb(54, 54, 53);
+
+}
+
+.body2-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.body2-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: orange;
+    padding-left: 3%;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 5%;
+
+}
+
+.body2-container-left-content {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    top: 0;
+}
+
+.body2-container-left h3 {
+    font-size: 1.4vw;
+}
+
+
+.guide {
+    width: 8vw;
+    height: 3vw;
+    background-color: orange;
+}
+
+.body2-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body2-input input {
+    width: 15vw;
+    height: 3vw;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.452);
+    outline: none;
+    color: white;
+    font-size: 1vw;
+}
+
+.body2-line {
+    height: 3vw;
+    width: 9px;
+    background-color: rgb(40, 110, 128);
+    border: none;
+    margin-right: -7px;
+    z-index: 1;
+}
+
+.body2-input-arrow {
+    margin-left: -30px;
+    font-size: 1.3vw;
+    color: rgb(95, 94, 94);
+}
+
+.body2-foodtype {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+
+
+.promo-contain img {
+    width: 18vw;
+    height: 21vw;
+    object-fit: cover;
+    border: 3px solid rgb(156, 97, 7);
+}
+
+.promo-contain button {
+    width: 10vw;
+    height: 2vw;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 1vw;
+}
+
+.food-type-topic {
+    width: 13vw;
+    height: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 225, 223);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+
+}
+
+.food-type-topic h3 {
+    font-size: 1.2vw;
+    color: rgb(216, 150, 8);
+
+}
+
+.body2-foodtype span {
+    font-weight: 600;
+    padding-left: 10px;
+    color: rgb(241, 241, 241);
+    margin-top: 3%;
+    font-size: 1vw;
+}
+
+.body2-container-right {
+    width: 100%;
+    background-color: orange;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23vw, 1fr));
+    padding-top: 6%;
+}
+
+.body2-container-right-content {
+    width: 23vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.body2-container-right-content img {
+    width: 23vw;
+    height: 20vw;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+
+.body2-container-right-content h2 {
+    font-size: 1.2vw;
+}
+
+
+.body2-container-right-content p {
+    font-size: 0.8vw;
+    color: rgb(51, 50, 50);
+    padding-inline: 5px;
+}
+
+.blog-body1-right-content-txt h4{
+    font-size: 1.2vw;
+}
+
+
+.body2-container-right-content button {
+    display: flex;
+    flex-direction: row;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 22px;
+    align-items: center;
+    border: none;
+    outline: none;
+    gap: 10px;
+    font-size: 0.9vw;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.......... key frames.....*/
+
+
+@media(max-width : 900px) {
+
+
+    .blog-header-content {
+        padding-top: 80px;
+    }
+
+
+}
+
+@media(max-width : 700px) {
+
+
+    .blog-header-content {
+        padding-top: 40px;
+    }
+
+
+}
+
+@media(max-width : 549px) {
+
+
+   .blog-body1-left button {
+        gap: 5px;
+    }
+
+
+}

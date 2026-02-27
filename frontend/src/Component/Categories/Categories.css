@@ -1,0 +1,135 @@
+.catgories-header {
+    width: 100%;
+    height: auto;
+    margin-left: 8%;
+}
+
+
+
+.categories-topic-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    
+ 
+   
+
+}
+
+.categories-topic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    padding-left: 5%;
+}
+
+.categories-topic h2 {
+    font-size: 2.7vw;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+}
+
+.categories-topic-up p {
+    text-align: center;
+    width: 60vw;
+    padding-top: 10px;
+    color: rgb(87, 83, 83);
+    margin-right: 10%;
+    font-size: 1vw;
+
+
+
+}
+
+.categories-container {
+    width: 85%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18vw, 1fr));
+    background-color: rgb(236, 231, 226);
+    padding: 5%;
+    gap: 20px;
+    margin-bottom: 10%;
+}
+
+.categories-holder {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.catgories-holder-content {
+    padding: 20px 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-holder img {
+    width: 20vw;
+    height: 15vw;
+    object-fit: cover;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.categories-holder h3 {
+    color: rgb(77, 74, 74);
+    font-size: 1.2vw;
+}
+
+.categories-holder span {
+    color: rgb(80, 77, 77);
+    font-size: 0.8vw;
+
+}
+
+.categories-holder button {
+    color: rgb(241, 238, 238);
+    background-color: orange;
+    border: none;
+    outline: none;
+    height: 2vw;
+    width: 8vw;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 0.9vw;
+}
+
+.categories-holder button:hover {
+    background-color: rgb(255, 242, 230);
+    color: orange;
+}
+
+
+
+
+
+
+/*.......... key frames.....*/
+
+
+@media(max-width : 1115px) {
+
+    .categories-topic-up {
+        margin-right: 10%;
+    }
+
+}
+
+@media(max-width : 400px) {
+
+    .categories-topic {
+        gap: 10px;
+        padding-left: 8%;
+    }
+
+}

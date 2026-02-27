@@ -1,0 +1,113 @@
+.testimony-header {
+    width: 100%;
+    height: auto;
+    gap: 60px;
+    margin-top: 5%;
+}
+
+.slider-holder {
+    width: 80%;
+    height: 20vw;
+    margin-inline: auto;
+    margin-bottom: 5%;
+
+}
+
+
+.testimony-topic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+.testimony-topic h2 {
+    font-size: 2.9vw;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+}
+
+.testimony-hr {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.testimony-content {
+    width: 70%;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 161, 47);
+
+}
+
+.testimony-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: relative;
+
+}
+
+.testimony-content img {
+    width: 30vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.testimony-test {
+    width: 35vw;
+    padding-top: 50px;
+}
+
+.testimony-test h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+
+.testimony-test span {
+    font-size: 1.4vw;
+    color: rgba(0, 0, 0, 0.911);
+}
+
+.testimony-test p {
+    font-size: 1vw;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+.testimony-test img {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    padding-top: 10px;
+    opacity: 0.7;
+}
+
+
+
+
+
+/*.......... key frames.....*/
+
+
+@media(max-width : 800px) {
+
+    .testimony-test {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width : 500px) {
+
+    .testimony-test {
+        padding-top: 10px;
+        margin-left: -5%;
+    }
+}

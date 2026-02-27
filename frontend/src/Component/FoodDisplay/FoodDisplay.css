@@ -1,0 +1,99 @@
+.food-display-body-conatiner-right-content{
+     width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(17vw, 1fr));
+    margin-top: 5%;
+    row-gap: 50px;
+
+}
+
+
+.food-list-main-image {
+    width: 17vw;
+    height: 13vw;
+    object-fit: cover;
+
+}
+
+.food-list-body-container-right-content-card-image {
+    width: 17vw;
+    height: 26vw;
+    background-color: rgb(247, 209, 161);
+    text-align: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 2px 3px 4px rgba(85, 84, 84, 0.774);
+    margin-inline: auto;
+    margin-bottom: 5%;
+}
+
+.food-list-body-container-right-content-card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45%;
+    text-align: start;
+    background-color: rgb(250, 235, 207);
+    padding: 10px 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.food-list-body-container-right-content-card-content h3 {
+    font-size: 1rem;
+}
+
+.food-list-body-container-right-content-card-content span {
+    font-size: 0.8rem;
+}
+
+.food-list-body-container-right-content-card-content p {
+    font-size: 0.7rem;
+    width: 200px;
+}
+
+.food-list-body-container-right-content-card-content button {
+    width: 7vw;
+    height: 2vw;
+    border-radius: 22px;
+    background-color: rgb(243, 132, 28);
+    border: none;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.food-list-body-container-right-content-card-content button:hover {
+     background-color: rgb(218, 106, 2);
+}
+
+.star-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 18px;
+    justify-content: space-between;
+}
+
+.star-holder img{
+   width: 4vw;
+}
+
+.star-holder .love-icon{
+   width: 1vw;
+}
+
+
+
+.love-icon{
+    color: white;
+}

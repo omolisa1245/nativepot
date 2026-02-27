@@ -1,0 +1,99 @@
+.catering-container {
+    width: 100%;
+    height: auto;
+}
+
+
+.catering-topic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+.catering-topic h2 {
+    font-size: 2.9vw;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+}
+
+.catering-hr {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.catering-holder {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-inline: auto;
+    padding-left: 3%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+.catering-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+    gap: 40px;
+   
+
+}
+
+.catering-left-main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.catering-left-main img {
+    width: 3vw;
+    height: 3vw;
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(255, 223, 117)) drop-shadow(0 0 0 rgb(248, 220, 141)) saturate(1000%);
+}
+
+.catering-left-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.catering-left-content h3 {
+    font-size: 1.4vw;
+}
+
+.catering-left-content p {
+    font-size: 0.9vw;
+    width: 28vw;
+    color: rgb(66, 65, 65);
+    margin-top: 5px;
+}
+
+.catering-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+   
+}
+
+.catering-right-content h3 {
+    font-size: 1.4vw;
+    margin-bottom: 5px;
+}
+
+
+.catering-right-content img {
+    width: 40vw;
+    height: 10vw;
+    object-fit: cover;
+}

@@ -1,0 +1,157 @@
+.Login-form-container {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+
+.form-body {
+    width: 45vw;
+    height: auto;
+    background-color: rgba(65, 40, 9, 0.842);
+    color: rgba(255, 255, 255, 0.897);
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    gap: 10px;
+    padding: 30px 45px;
+    margin-top: 4%;
+    
+}
+
+
+.form-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.form-heading h2 {
+    font-size: 1.8vw;
+    color: rgba(255, 255, 255, 0.945);
+}
+
+.cross {
+    cursor: pointer;
+    font-size: 1.4vw;
+}
+
+.input-login {
+    width: 35vw;
+    height: 6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    padding: 5px;
+
+}
+
+.input-login input::placeholder {
+    font-size: 0.9vw;
+    margin-bottom: 6px;
+}
+
+.input-login input {
+    width: 27vw;
+    height: 2.5vw;
+    background-color: rgb(5, 5, 5);
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.925);
+    
+}
+
+.input-login img {
+    width: 1.5vw;
+}
+
+
+.form-body button {
+    width: 12vw;
+    height: 4vw;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: 0.9vw;
+}
+
+.form-body button:hover {
+    background-color: rgba(255, 166, 0, 0.904);
+    color: rgba(255, 255, 255, 0.925);
+}
+
+.form-body p {
+    font-size: 0.8vw;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.form-body p:hover {
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.terms span {
+    font-size: 0.7vw;
+}
+
+.create-account {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.create-account span {
+    font-size: 0.8vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.create-account p {
+    color: rgba(255, 166, 0, 0.801);
+    font-size: 0.9vw;
+}
+
+
+
+
+
+
+
+
+
+
+/*.......... key frames.....*/
+
+
+@media(max-width : 700px) {
+
+    .form-body {
+        padding: 30px 15px;
+        
+    }
+}

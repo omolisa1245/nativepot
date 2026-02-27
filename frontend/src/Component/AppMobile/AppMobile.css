@@ -1,0 +1,100 @@
+.app-container {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.app-holder {
+    width: 80%;
+    height: 25vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 153, 0);
+    margin-inline: auto;
+    padding-top: 40px;
+    padding: 20px 30px;
+    margin-bottom: 5%;
+
+
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content h1 {
+    font-size: 4.5vw;
+}
+
+.app-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.app-main-image1 {
+    width: 17vw;
+    height: 5vw;
+}
+
+.app-main-image2 {
+    width: 21vw;
+    height: 7vw;
+}
+
+.app-phone img {
+    width: 30vw;
+    margin-bottom: -33px;
+
+}
+
+
+
+
+
+/*.......... key frames.....*/
+
+
+@media(max-width : 1115px) {
+
+    .app-phone img {
+        margin-bottom: -30px;
+    }
+}
+
+@media(max-width : 800px) {
+
+    .app-phone img {
+        margin-bottom: -23px;
+    }
+}
+
+@media(max-width : 500px) {
+
+    .app-phone img {
+        margin-bottom: -17px;
+    }
+}
+
+@media(max-width : 400px) {
+
+    .app-phone img {
+        margin-bottom: -17px;
+    }
+
+    .app-content {
+        padding: 1px;
+    }
+
+
+    .app-image {
+        margin-top: 10px;
+    }
+    .app-holder {
+        padding-left: -50px;
+    }
+}
