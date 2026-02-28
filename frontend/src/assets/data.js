@@ -84,8 +84,8 @@ import ofeugba from '../assets/ofeugba.webp'
 import ofeugba2 from '../assets/ofeugba2.jpeg'
 import ofeugba4 from '../assets/ofeugba4.jpg'
 import ogbono from '../assets/ogbono.jpg'
-import Ogbono1 from '../assets/Ogbono1.jpg'
-import Ogbono3 from '../assets/Ogbono3.png'
+import ogbono1 from '../assets/ogbono1.jpg'
+import ogbono3 from '../assets/ogbono3.png'
 import oha1 from '../assets/oha1.jpg'
 import ohasoup1 from '../assets/ohasoup1.jpg'
 import ohasoup from '../assets/ohasoup.jpg'
@@ -752,7 +752,7 @@ const product = [
     {
         _id: "70",
         name: 'Ogbono',
-        image: Ogbono1,
+        image: ogbono1,
         pice: 800,
         category: 'soup',
         description: 'Key ingredients include palm oil, a choice of meat and/or fish (like beef, goat meat, stockfish, or dry fish), ground crayfish for flavor, and leafy green vegetables such as ugwu leaves.'
@@ -761,7 +761,7 @@ const product = [
     {
         _id: "71",
         name: 'Ogbono',
-        image: Ogbono3,
+        image: ogbono3,
         pice: 800,
         category: 'soup',
         description: 'Key ingredients include palm oil, a choice of meat and/or fish (like beef, goat meat, stockfish, or dry fish), ground crayfish for flavor, and leafy green vegetables such as ugwu leaves.'
