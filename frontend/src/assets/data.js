@@ -83,7 +83,7 @@ import ofeowerri4 from '../assets/ofeowerri4.jpg'
 import ofeugba from '../assets/ofeugba.webp'
 import ofeugba2 from '../assets/ofeugba2.jpeg'
 import ofeugba4 from '../assets/ofeugba4.jpg'
-import Ogbono from '../assets/Ogbono.jpg'
+import ogbono from '../assets/ogbono.jpg'
 import Ogbono1 from '../assets/Ogbono1.jpg'
 import Ogbono3 from '../assets/Ogbono3.png'
 import oha1 from '../assets/oha1.jpg'
@@ -743,7 +743,7 @@ const product = [
     {
         _id: "69",
         name: 'Ogbono',
-        image: Ogbono,
+        image: ogbono,
         pice:800,
         category: 'soup',
         description: 'Key ingredients include palm oil, a choice of meat and/or fish (like beef, goat meat, stockfish, or dry fish), ground crayfish for flavor, and leafy green vegetables such as ugwu leaves.'
