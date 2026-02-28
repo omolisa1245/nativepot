@@ -77,7 +77,7 @@ import nsala4 from '../assets/nsala4.jpg'
 import nsalasoup1 from '../assets/nsalasoup1.webp'
 import ofeowerri from '../assets/ofeowerri.jpg'
 import ofada from '../assets/ofada.jpg'
-import ofeowerri2 from '../assets/ofeowerri2.jpg'
+import Ofeowerri2 from '../assets/Ofeowerri2.jpg'
 import ofeowerri3 from '../assets/ofeowerri3.jpeg'
 import ofeowerri4 from '../assets/ofeowerri4.jpg'
 import ofeugba from '../assets/ofeugba.webp'
@@ -691,7 +691,7 @@ const product = [
     {
         _id: "63",
         name: 'Ofe-Owerri',
-        image: ofeowerri2,
+        image: Ofeowerri2,
         pice:800,
         category: 'soup',
         description: 'A rich Igbo soup made with a variety of meats like beef, snails, and cow skin (ponmo), alongside stockfish, dry fish, and ground crayfish. It is thickened with cocoyam (ede) and flavored with palm oil, seasoning cubes, and pepper.'
