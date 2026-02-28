@@ -34,7 +34,7 @@ const LoginForm = ({setShowLogin}) => {
         event.preventDefault()
        try {
          if (currState === "signup") {
-            const response = await axios.post("http://localhost:5000/api/user/register", data)
+            const response = await axios.post("https://nativepot.vercel.app/api/user/register", data)
              console.log(response);
             if (response.data.success) {
                 setToken(response.data.token);
@@ -45,7 +45,7 @@ const LoginForm = ({setShowLogin}) => {
                 alert(response.data.message)
             }
         } else {
-            const response = await axios.post("http://localhost:5000/api/user/login", data)
+            const response = await axios.post("https://nativepot.vercel.app/api/user/login", data)
            
             
             if (response.data.success) {

@@ -17,7 +17,7 @@ const Order = () => {
 
             }
 
-            const response = await axios.post("http://localhost:5000/api/order/userorders", {}, { headers: { token } });
+            const response = await axios.post("https://nativepot.vercel.app/api/order/userorders", {}, { headers: { token } });
             console.log(response.data);
 
 

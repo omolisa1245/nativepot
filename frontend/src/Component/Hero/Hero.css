@@ -1,322 +1,123 @@
 .hero-container {
-    min-width: 100%;
-    height: auto;
+    width: 100%;
 }
 
 .hero-header {
-    max-width: 100%;
-    margin-inline: auto;
-    min-height: 40vw;
-    background: url('../../assets/main_bg1.jpg');
-    object-fit: cover;
-    background-position: (100%);
-    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+    background: url('../../assets/main_bg1.jpg') center/cover no-repeat;
     position: relative;
 }
 
 .hero-header-content-overlay {
-    max-width: 100%;
-    margin-inline: auto;
-    min-height: 40vw;
-    background-color: rgba(0, 0, 0, 0.842);
-}
-
-.add-image1 {
-    width: 12vw;
-    height: 12vw;
-    background-color: rgb(255, 136, 0);
-    clip-path: polygon(50% 0%, 0 48%, 52% 100%);
-    position: absolute;
-    left: 40%;
-    bottom: 30%;
-}
-
-.add-image3 {
-    width: 12vw;
-    height: 12vw;
-    background-color: rgba(255, 136, 0, 0.788);
-    clip-path: polygon(50% 0%, 0 48%, 52% 100%);
-    position: absolute;
-    left: 40%;
-    bottom: 30%;
-    margin-left: 3%;
-}
-
-.add-image2 {
-    width: 12vw;
-    height: 12vw;
-    background-color: rgba(255, 136, 0, 0.849);
-    clip-path: polygon(100% 48%, 51% 0, 52% 100%);
-    position: absolute;
-    right: 12%;
-    top: 40%;
-}
-
-.add-image4 {
-    width: 12vw;
-    height: 12vw;
-    background-color: rgb(255, 136, 0);
-    clip-path: polygon(100% 48%, 51% 0, 52% 100%);
-    position: absolute;
-    right: 9%;
-    top: 40%;
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .hero-header-content {
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5%;
+    padding: 60px 20px;
+    gap: 40px;
 }
+
 
 .header-content-left {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 48%;
-    padding-left: 7%;
-}
-
-.slick-next:before {
-    display: none;
-}
-
-.slick-prev:before {
-    display: none;
+    flex: 1;
 }
 
 .header-content-left h2 {
-    width: 40vw;
-    font-size: 2.7vw;
+    font-size: 2.5rem;
     color: white;
-     animation: appear 0.7s linear;
+    line-height: 1.3;
 }
 
 .header-content-left span {
-    width: auto;
-    font-size: 2.6vw;
     color: rgb(245, 123, 42);
-     animation: appear 0.7s linear;
-    
 }
-
-   
-@keyframes appear{
-  from{
-    opacity: 0;
-   transform: translateX(100px);
-  }
-
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-
 
 .header-content-left p {
     color: white;
-    font-size: 0.9vw;
-    width: 28vw;
-     animation: appear 0.7s linear;
-       animation-delay: 0.3s;
+    font-size: 1rem;
+    margin-top: 20px;
+    max-width: 500px;
 }
 
 .header-content-left button {
-    color: white;
-    font-size: 2vw;
-    height: 8vw;
-    width: 20vw;
+    margin-top: 30px;
+    padding: 15px 35px;
+    font-size: 1rem;
     background-color: rgb(245, 123, 42);
     border: none;
-    outline: none;
-    margin-top: 30px;
+    color: white;
     font-weight: 600;
     cursor: pointer;
-     animation: appear 0.7s linear;
-       animation-delay: 0.4s;
+    transition: 0.3s ease;
 }
 
 .header-content-left button:hover {
     background-color: rgb(199, 89, 15);
 }
 
+
 .header-content-right {
+    flex: 1;
     display: flex;
-    flex-direction: column;
-    flex-basis: 48%;
-
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-
 
 .slider-container {
-    width: 400px;
-    transform: rotate(270deg);
-
-
+    width: 100%;
+    max-width: 400px;
 }
+
 
 .food-hero img {
-    width: 25vw;
-    height: 25vw;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
     object-fit: cover;
     border-radius: 50%;
-    transform: rotate(90deg);
-    border: 12px solid rgb(226, 122, 4);
+    border: 10px solid rgb(226, 122, 4);
 }
 
 
+@media (max-width: 992px) {
+    .hero-header-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-
-/*.......... key frames.....*/
-
-
-@media(max-width : 1115px) {
+    .header-content-left p {
+        margin: auto;
+    }
 
     .header-content-right {
-        width: 48%;
-        margin-bottom: 15%;
+        margin-top: 40px;
     }
-
-    .add-image1 {
-        margin-bottom: 2%;
-        left: 47%;
-    }
-
-    .add-image3 {
-        margin-bottom: 2%;
-        left: 46%;
-
-    }
-
-
-    .add-image2 {
-        right: 7%;
-        top: 40%;
-    }
-
-    .add-image4 {
-        right: 5%;
-        top: 40%;
-    }
-
-
-
 }
 
+@media (max-width: 576px) {
 
-@media(max-width : 1050px) {
-    .header-content-right {
-        margin-left: -8%;
+    .header-content-left h2 {
+        font-size: 1.8rem;
     }
 
-
-
-}
-
-@media(max-width : 996px) {
-    .header-content-right {
-        margin-left: -17%;
-    }
-
-
-
-}
-
-@media(max-width : 933px) {
-    .add-image1 {
-        display: none;
-    }
-
-    .add-image3 {
-        display: none;
-    }
-
-
-    .add-image2 {
-        display: none;
-    }
-
-    .add-image4 {
-        display: none;
+    .header-content-left p {
+        font-size: 0.9rem;
     }
 
     .food-hero img {
-        margin-left: 10%;
-    }
-
-
-}
-
-@media(max-width : 780px) {
-
-    .hero-header-content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-      .header-content-left {
-       align-items: center;
-       text-align: center;
-    }
-
-    
-.slider-container {
-    width: 400px;
-    transform: rotate(180deg);
-    margin-top: 15%
-
-
-}
-
-
-    
-}
-
-@media(max-width : 655px) {
-
-    .hero-header-content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 10% 20%;
-
-    }
-
-     .food-hero img {
-        margin-bottom: 15%;
-        margin-left: 50%;
-    }
-
-    
-
-
-
-}
-
-
-
-@media(max-width : 500px) {
-
-
-     .food-hero img {
-        margin-bottom: 15%;
-        margin-left: 60%;
-    }
-
-}
-
-
-@media(max-width : 400px) {
-
-
-     .food-hero img {
-        margin-bottom: 15%;
-        margin-left: 70%;
+        height: 250px;
+        max-width: 250px;
+        margin-left: 5rem;
     }
 
 }

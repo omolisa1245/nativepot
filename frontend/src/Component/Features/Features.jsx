@@ -39,7 +39,7 @@ const Features = () => {
         <div className="features-cards-cont">
             <div className='features-cards-container'>
                 <div
-                  
+
                     className="features-topic">
                     <div className="feature-hr">
                         <hr className='arrow-feature1' />
@@ -51,7 +51,7 @@ const Features = () => {
                         <hr className='arrow-feature4' />
                     </div>
                 </div>
-                
+
                 <div className="features-card-holder">
                     <div className="feature-card-content-holder">
                         <div className="features-card-content">
@@ -85,14 +85,16 @@ const Features = () => {
 
 
 
-                    <div className="features-card-content-right">
-                        <img src={bimage6} alt="" />
+                    <div className='features-draw'>
+                        <div className="features-card-content-right">
+                            <img src={bimage6} alt="" />
 
-                    </div>
-                    <div className="features-add-right">
-                        <span>Read More</span>
-                        <FaLongArrowAltRight className='arrow-features' />
+                        </div>
+                        <div className="features-add-right">
+                            <span>Read More</span>
+                            <FaLongArrowAltRight className='arrow-features' />
 
+                        </div>
                     </div>
                 </div>
 

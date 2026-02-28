@@ -59,7 +59,7 @@ const Checkout = () => {
                 amount: getCartAmount() + delivery_fee,
             };
 
-            let response = await axios.post("http://localhost:5000/api/order/place",
+            let response = await axios.post("https://nativepot.vercel.app/api/order/place",
 
                 orderData, { headers: { token } }
             );

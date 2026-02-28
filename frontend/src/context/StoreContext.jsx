@@ -34,7 +34,7 @@ const StoreContextProvider = ({ children }) => {
 
     if (token) {
       try {
-        await axios.post("http://localhost:5000/api/cart/add", { itemId }, { headers: { token } })
+        await axios.post("https://nativepot.vercel.app/api/cart/add", { itemId }, { headers: { token } })
 
 
       } catch (error) {
@@ -71,7 +71,7 @@ const StoreContextProvider = ({ children }) => {
 
     if (token) {
       try {
-        await axios.post("http://localhost:5000/api/cart/update", { itemId, quantity }, { headers: { token } })
+        await axios.post("https://nativepot.vercel.app/api/cart/update", { itemId, quantity }, { headers: { token } })
 
       } catch (error) {
         console.log(error);
@@ -86,7 +86,7 @@ const StoreContextProvider = ({ children }) => {
 
    const getProductData = async () =>{
       try {
-          const response = await axios.get("http://localhost:5000/api/food/list")
+          const response = await axios.get("https://nativepot.vercel.app/api/food/list")
            console.log(response.data)
         
           
@@ -102,7 +102,7 @@ const StoreContextProvider = ({ children }) => {
     
     const getUserCart = async (token) =>{
         try {
-          const response  = await axios.post("http://localhost:5000/api/cart/get",{}, {headers: {token}})
+          const response  = await axios.post("https://nativepot.vercel.app/api/cart/get",{}, {headers: {token}})
           if (response.data.success) {
             setCartItems(response.data.cartData)
             
