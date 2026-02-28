@@ -126,7 +126,7 @@ import tigernut3 from '../assets/tigernut3.jpg'
 import turkey1 from '../assets/turkey1.jpeg'
 import turkey2 from '../assets/turkey2.jpg'
 import turkey3 from '../assets/turkey3.jpg'
-import tuwoshimkafa1 from '../assets/tuwoshimkafa1.jpg'
+import tuwoShimkafa1 from '../assets/tuwoShimkafa1.jpg'
 import tuwoshimkafa2 from '../assets/tuwoshimkafa2.jpeg'
 import uziza from '../assets/uziza.jpg'
 import uziza1 from '../assets/uziza1.png'
@@ -1090,7 +1090,7 @@ const product = [
     {
         _id: "108",
         name: 'Tuwo Shinkafa',
-        image: tuwoshimkafa1,
+        image: tuwoShimkafa1,
         price: 500,
         category: 'swallow',
         description: 'Tuwo shinkafa is a thick, mashed-rice dish, often called a "swallow," made from short-grain rice and wate.'
