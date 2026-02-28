@@ -113,7 +113,7 @@ import poundedyam2 from '../assets/poundedyam2.webp'
 import poundedyam3 from '../assets/poundedyam3.webp'
 import poundedyam4 from '../assets/poundedyam4.webp'
 import semo2 from '../assets/semo2.jpg'
-import semo3 from '../assets/semo3.jpg'
+import Semo3 from '../assets/semo3.jpg'
 import semo4 from '../assets/semo4.jpg'
 import snail1 from '../assets/snail1.jpg'
 import snail2 from '../assets/snail2.webp'
@@ -974,7 +974,7 @@ const product = [
     {
         _id: "95",
         name: 'Semo',
-        image: semo3,
+        image: Semo3,
         price: 600,
         category: 'swallow',
         description: 'Food made from ground cereal grains, primarily wheat or corn and cassava flour.'
