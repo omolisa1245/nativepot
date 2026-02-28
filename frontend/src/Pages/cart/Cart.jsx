@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
-import './Cart.css'
+import './cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { CiSquareMinus } from "react-icons/ci";
 import { CiSquarePlus } from "react-icons/ci"
