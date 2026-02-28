@@ -102,7 +102,7 @@ const Categories = () => {
                     </div>
                 </div>
                 <div className="categories-holder">
-                    <img src={pepperSoup3} alt="" />
+                    <img src={PepperSoup3} alt="" />
                     <div className="catgories-holder-content">
                         <h3>Pepper Soup</h3>
                         <span>Check out our home made Pepper Soup, well prepared and made of natural ingredient</span>

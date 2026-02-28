@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import './foodDisplay.css'
+import './FoodDisplay.css'
 import { useNavigate } from 'react-router-dom';
 import { MdArrowBackIos } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
