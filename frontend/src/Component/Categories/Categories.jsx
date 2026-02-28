@@ -4,7 +4,7 @@ import eba3 from '../../assets/eba3.webp'
 import oha1 from '../../assets/oha1.jpg'
 import zobo4 from '../../assets/zobo4.jpg'
 import food13 from '../../assets/food13.jpg'
-import pepperSoup3 from '../../assets/pepperSoup3.jpeg'
+import PepperSoup3 from '../../assets/PepperSoup3.jpeg'
 import fish4 from '../../assets/fish4.webp'
 import { motion, easeInOut } from "framer-motion"
 
