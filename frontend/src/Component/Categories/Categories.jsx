@@ -4,7 +4,7 @@ import eba3 from '../../assets/eba3.webp'
 import oha1 from '../../assets/oha1.jpg'
 import zobo4 from '../../assets/zobo4.jpg'
 import food13 from '../../assets/food13.jpg'
-import peppersoup3 from '../../assets/peppersoup3.jpeg'
+import pepperSoup3 from '../../assets/pepperSoup3.jpeg'
 import fish4 from '../../assets/fish4.webp'
 import { motion, easeInOut } from "framer-motion"
 
@@ -102,7 +102,7 @@ const Categories = () => {
                     </div>
                 </div>
                 <div className="categories-holder">
-                    <img src={peppersoup3} alt="" />
+                    <img src={pepperSoup3} alt="" />
                     <div className="catgories-holder-content">
                         <h3>Pepper Soup</h3>
                         <span>Check out our home made Pepper Soup, well prepared and made of natural ingredient</span>
