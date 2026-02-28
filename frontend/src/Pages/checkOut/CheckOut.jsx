@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
-import './Checkout.css'
+import './CheckOut.css'
 import Stripe from '../../assets/stripe.png'
 import razorpay from '../../assets/razorpay.png'
 import CartTotal from '../../Component/CartTotal/CartTotal'
